@@ -1,0 +1,19 @@
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+import java.util.List;
+
+public interface IDoctorDAO {
+    boolean addDoctor(Doctor var1);
+
+    Doctor getDoctorById(int var1);
+
+    List<Doctor> getAllDoctors();
+
+    boolean updateDoctor(Doctor var1);
+
+    boolean deleteDoctor(int var1);
+
+    Doctor getDoctorByName(String var1, String var2);
+}
