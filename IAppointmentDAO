@@ -1,0 +1,22 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+import java.util.List;
+
+public interface IAppointmentDAO {
+    boolean addAppointment(Appointment var1);
+
+    Appointment getAppointmentById(int var1);
+
+    List<Appointment> getAllAppointments();
+
+    boolean updateAppointment(Appointment var1);
+
+    boolean deleteAppointment(int var1);
+
+    List<Appointment> getAppointmentsByPatient(int var1);
+
+    List<Appointment> getAppointmentsByDoctor(int var1);
+}
