@@ -1,0 +1,22 @@
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by FernFlower decompiler)
+//
+
+import java.util.List;
+
+public interface IMedicalRecordDAO {
+    boolean addMedicalRecord(MedicalRecord var1);
+
+    MedicalRecord getMedicalRecordById(int var1);
+
+    List<MedicalRecord> getAllMedicalRecords();
+
+    boolean updateMedicalRecord(MedicalRecord var1);
+
+    boolean deleteMedicalRecord(int var1);
+
+    List<MedicalRecord> getMedicalRecordsByPatient(int var1);
+
+    List<MedicalRecord> getMedicalRecordsByDoctor(int var1);
+}
